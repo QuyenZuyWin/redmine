@@ -14,7 +14,7 @@ require 'action_view/railtie'
 require 'action_cable/engine'
 # require 'sprockets/railtie'
 require 'rails/test_unit/railtie'
-
+require "active_storage/engine"
 Bundler.require(*Rails.groups)
 
 module RedmineApp
