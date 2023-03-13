@@ -62,6 +62,10 @@ end
 require 'erb'
 require 'yaml'
 
+group :production do
+  gem "puma"
+end
+
 group :development do
   gem 'listen', '~> 3.3'
   gem "yard"
