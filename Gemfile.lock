@@ -272,7 +272,7 @@ DEPENDENCIES
   marcel
   mini_magick (~> 4.12.0)
   mini_mime (~> 1.1.0)
-  mysql2 (~> 0.5.5)
+  mysql2
   mocha (>= 1.4.0)
   net-imap (~> 0.3.4)
   net-ldap (~> 0.17.0)
