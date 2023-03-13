@@ -8,7 +8,7 @@ production:
   database: qz8si2yulh3i7gl3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/pyd91rqex6yt7fgp
   username: gtd7n5f3jszlryev
   password: gup5l0qhb03ihmca
-  
+
 #development:
 #  adapter: mysql2
 #  database: redmine_development

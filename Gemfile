@@ -60,11 +60,6 @@ end
 require 'erb'
 require 'yaml'
 
-group :production do
-  gem 'listen', '~> 3.3'
-  gem "yard"
-end
-
 group :development do
   gem 'listen', '~> 3.3'
   gem "yard"
@@ -95,3 +90,5 @@ end
 Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |file|
   eval_gemfile file
 end
+
+gem 'puma'
