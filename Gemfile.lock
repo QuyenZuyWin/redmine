@@ -118,6 +118,7 @@ GEM
     minitest (5.18.0)
     mocha (2.0.2)
       ruby2_keywords (>= 0.0.5)
+    mysql2 (0.5.5)
     net-imap (0.3.4)
       date
       net-protocol
@@ -130,6 +131,8 @@ GEM
       net-protocol
     nio4r (2.5.8)
     nokogiri (1.14.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
     parallel (1.22.1)
     parser (3.2.1.1)
@@ -272,8 +275,8 @@ DEPENDENCIES
   marcel
   mini_magick (~> 4.12.0)
   mini_mime (~> 1.1.0)
-  mysql2
   mocha (>= 1.4.0)
+  mysql2
   net-imap (~> 0.3.4)
   net-ldap (~> 0.17.0)
   net-pop (~> 0.1.2)
