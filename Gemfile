@@ -4,7 +4,7 @@ ruby '>= 2.7.0', '< 3.3.0'
 
 gem 'puma'
 gem 'mysql2'
-gem 'aws-sdk-s3'
+gem "aws-sdk-s3", require: false
 gem 'rails', '6.1.7.2'
 gem 'rouge', '~> 4.1.0'
 gem 'request_store', '~> 1.5.0'
