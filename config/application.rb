@@ -29,6 +29,7 @@ module RedmineApp
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
     # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
+    # config.active_storage.service = :amazon
 
     config.active_record.store_full_sti_class = true
     config.active_record.default_timezone = :local
