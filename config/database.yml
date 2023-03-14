@@ -9,7 +9,7 @@ production:
   database: sitf6nc7oo5lpf57
   username: sjpsnce64u8vvqf7
   password: cv8xbpgajfhiorz1
-  
+
 #development:
 #  adapter: mysql2
 #  database: redmine_development
