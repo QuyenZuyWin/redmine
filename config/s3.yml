@@ -2,10 +2,10 @@ production:
   access_key_id: <%= ENV['BUCKETEER_AWS_ACCESS_KEY_ID'] %>
   secret_access_key: <%= ENV['BUCKETEER_AWS_SECRET_ACCESS_KEY'] %>
   bucket: <%= ENV['BUCKETEER_BUCKET_NAME'] %>
-#  endpoint:
+  endpoint: "s3://arn:aws:s3:us-east-1:990608453186:accesspoint/redmine-duythinh"
 #  secure:
 #  private:
-#  expires: 
+#  expires:
 #
 #development:
 #  access_key_id:
