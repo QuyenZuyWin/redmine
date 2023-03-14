@@ -1,0 +1,17 @@
+production:
+  access_key_id: <%= ENV['BUCKETEER_AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['BUCKETEER_AWS_SECRET_ACCESS_KEY'] %>
+  bucket: <%= ENV['BUCKETEER_BUCKET_NAME'] %>
+  endpoint:
+  secure:
+  private:
+  expires: 
+
+development:
+  access_key_id: 
+  secret_access_key: 
+  bucket: 
+  endpoint:
+  secure:
+  private:
+  expires: 
